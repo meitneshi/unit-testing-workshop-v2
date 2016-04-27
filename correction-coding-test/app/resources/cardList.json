@@ -1,0 +1,262 @@
+[
+    {
+      "value": 1,
+      "label": "Ace",
+      "symbol":"spades"
+    },
+    {
+      "value": 2,
+      "label": "2",
+      "symbol":"spades"
+    },
+    {
+      "value": 3,
+      "label": "3",
+      "symbol":"spades"
+    },
+    {
+      "value": 4,
+      "label": "4",
+      "symbol":"spades"
+    },
+    {
+      "value": 5,
+      "label": "5",
+      "symbol":"spades"
+    },
+    {
+      "value": 6,
+      "label": "6",
+      "symbol":"spades"
+    },
+    {
+      "value": 7,
+      "label": "7",
+      "symbol":"spades"
+    },
+    {
+      "value": 8,
+      "label": "8",
+      "symbol":"spades"
+    },
+    {
+      "value": 9,
+      "label": "9",
+      "symbol":"spades"
+    },
+    {
+      "value": 10,
+      "label": "10",
+      "symbol":"spades"
+    },
+    {
+      "value": 11,
+      "label": "Jack",
+      "symbol":"spades"
+    },
+    {
+      "value": 12,
+      "label": "Queen",
+      "symbol":"spades"
+    },
+    {
+      "value": 13,
+      "label": "King",
+      "symbol":"spades"
+    },
+    {
+      "value": 1,
+      "label": "Ace",
+      "symbol":"clubs"
+    },
+    {
+      "value": 2,
+      "label": "2",
+      "symbol":"clubs"
+    },
+    {
+      "value": 3,
+      "label": "3",
+      "symbol":"clubs"
+    },
+    {
+      "value": 4,
+      "label": "4",
+      "symbol":"clubs"
+    },
+    {
+      "value": 5,
+      "label": "5",
+      "symbol":"clubs"
+    },
+    {
+      "value": 6,
+      "label": "6",
+      "symbol":"clubs"
+    },
+    {
+      "value": 7,
+      "label": "7",
+      "symbol":"clubs"
+    },
+    {
+      "value": 8,
+      "label": "8",
+      "symbol":"clubs"
+    },
+    {
+      "value": 9,
+      "label": "9",
+      "symbol":"clubs"
+    },
+    {
+      "value": 10,
+      "label": "10",
+      "symbol":"clubs"
+    },
+    {
+      "value": 11,
+      "label": "Jack",
+      "symbol":"clubs"
+    },
+    {
+      "value": 12,
+      "label": "Queen",
+      "symbol":"clubs"
+    },
+    {
+      "value": 13,
+      "label": "King",
+      "symbol":"clubs"
+    },
+    {
+      "value": 1,
+      "label": "Ace",
+      "symbol":"hearts"
+    },
+    {
+      "value": 2,
+      "label": "2",
+      "symbol":"hearts"
+    },
+    {
+      "value": 3,
+      "label": "3",
+      "symbol":"hearts"
+    },
+    {
+      "value": 4,
+      "label": "4",
+      "symbol":"hearts"
+    },
+    {
+      "value": 5,
+      "label": "5",
+      "symbol":"hearts"
+    },
+    {
+      "value": 6,
+      "label": "6",
+      "symbol":"hearts"
+    },
+    {
+      "value": 7,
+      "label": "7",
+      "symbol":"hearts"
+    },
+    {
+      "value": 8,
+      "label": "8",
+      "symbol":"hearts"
+    },
+    {
+      "value": 9,
+      "label": "9",
+      "symbol":"hearts"
+    },
+    {
+      "value": 10,
+      "label": "10",
+      "symbol":"hearts"
+    },
+    {
+      "value": 11,
+      "label": "Jack",
+      "symbol":"hearts"
+    },
+    {
+      "value": 12,
+      "label": "Queen",
+      "symbol":"hearts"
+    },
+    {
+      "value": 13,
+      "label": "King",
+      "symbol":"hearts"
+    },
+    {
+      "value": 1,
+      "label": "Ace",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 2,
+      "label": "2",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 3,
+      "label": "3",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 4,
+      "label": "4",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 5,
+      "label": "5",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 6,
+      "label": "6",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 7,
+      "label": "7",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 8,
+      "label": "8",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 9,
+      "label": "9",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 10,
+      "label": "10",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 11,
+      "label": "Jack",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 12,
+      "label": "Queen",
+      "symbol":"diamonds"
+    },
+    {
+      "value": 13,
+      "label": "King",
+      "symbol":"diamonds"
+    }
+]

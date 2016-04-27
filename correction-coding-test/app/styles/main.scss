@@ -1,0 +1,56 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
+// bower:scss
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+.main_title {
+
+}
+
+.settings_panel {
+  margin: 15px;
+  .action_button {
+    margin: 10px;
+  }
+  .option_select {
+    margin-left:10px;
+    select {
+      margin: 5px 0px 5px 0px;
+    }
+  }
+}
+
+.main_game_board {
+    .game_resume {
+        .player_board {
+
+        }
+    }
+
+    .scoreboard {
+
+    }
+}
+
+.game_board {
+  .game_container {
+    .game_name {
+
+    }
+    .game_info {
+      height:45px;
+    }
+    .game_launch {
+      margin-bottom: 25px;
+    }
+    .game_result {
+      height: 45px;
+    }
+  }
+}
+
+.game_footer {
+
+}

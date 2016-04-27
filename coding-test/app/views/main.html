@@ -1,0 +1,84 @@
+<div ng-controller="MainCtrl">
+  <div class="main_title">
+    <h1>Welcome to the Game</h1>
+  </div>
+
+  <div class="settings_panel">
+    <div class="action_button">
+      <div class="btn btn-success btn-large" ng-click="initGame(nbPlayer)">Init The Game</div>
+      <div class="btn btn-success btn-danger" ng-click="resetGame()">Reset The Game</div>
+    </div>
+
+    <div class="option_select">
+      number of players : <select ng-model="nbPlayer">
+        <option ng-repeat="n in [2,3,4]" value="{{n}}">{{n}}</option>
+      </select>
+
+      <br/>
+
+      target score : <select ng-model="targetScore">
+        <option ng-repeat="n in [25,50,75,100]" value="{{n}}">{{n}}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="main_game_board" ng-if="players.length > 0">
+    <div class="row game_resume">
+      <div class="col-md-6 players_board">
+        <h1>Players</h1>
+        <div ng-repeat="player in players" ng-if="players.length > 0">
+          {{player.name}} ( lvl:{{player.level}})<br/>
+        </div>
+      </div>
+
+      <div class="col-md-6 scoreboard">
+        <h1>Scoreboard</h1>
+        <div ng-repeat="(key, value) in scoreBoard">
+          {{key}} : {{value}}
+        </div>
+      </div>
+    </div>
+
+    <div class="row game_board">
+      <h1>The Game</h1>
+      <h2>Current player : {{currentPlayer.name}}</h2>
+      <div class="row game_container">
+        <div class="col-md-6 game">
+          <div class="game_name">
+            <h3>Card Drawing</h3>
+          </div>
+          <div class="game_info">
+            Cards in pile : {{cards.length}} <br/>
+          </div>
+          <div class="game_launch">
+            <div class="btn btn-success" ng-click="drawCard()">Draw a Card !</div>
+          </div>
+          <div ng-show="cardDrawn" class="game_result">
+            Congratulations ! You draw the {{cardDrawn.label}} of {{cardDrawn.symbol}} and score {{cardDrawn.value}} points
+          </div>
+        </div>
+
+        <div class="col-md-6 game">
+          <div class="game_name">
+            <h3>Dice Throwing</h3>
+          </div>
+          <div class="game_info">
+            Number of faces : <input type="number" ng-model="face">
+          </div>
+          <div class="game_launch">
+            <div class="btn btn-success" ng-click="rollDice(face)">Roll the Dice !</div>
+          </div>
+          <div ng-if="diceScore !== 0" class="game_result">
+            Congratulations : You scored {{diceScore}} point(s).
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row game_footer">
+      <div class="btn btn-large btn-danger" ng-click="endTurn()">End your turn</div>
+    </div>
+
+  </div>
+
+</div>

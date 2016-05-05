@@ -44,7 +44,7 @@ $ grunt serve
 You should see the welcome page of the game
 - Launch the tests suites
 ```sh
-karma starts
+karma start
 ```
 As no test are written, it should succeed
 
